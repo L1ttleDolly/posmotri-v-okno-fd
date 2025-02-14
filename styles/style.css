@@ -54,7 +54,7 @@ ol {
   background-color: #d9d9d9;
 }
 
-.content{
+.content {
   width: 1140;
   height: 534;
   display: grid;
@@ -65,13 +65,13 @@ ol {
   gap: 30px;
 }
 
-.result{
+.result {
   width: 711px;
   height: 456px;
   gap: 16px;
 }
 
-.result__video-container{
+.result__video-container {
   position: relative;
   width: 711px;
   height: 386px;
@@ -79,13 +79,13 @@ ol {
   margin-top: 75px;
 }
 
-.result__video{
+.result__video {
   width: 711px;
   height: 386px;
   object-fit: cover;
 }
 
-.search-form{
+.search-form {
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -94,7 +94,7 @@ ol {
   margin-top: 16px;
 }
 
-.search-form__fieldset{
+.search-form__fieldset {
   display: flex;
   flex-direction: column;
   align-self: center;
@@ -103,7 +103,7 @@ ol {
   cursor: pointer
 }
 
-.search-form__fieldset-title{
+.search-form__fieldset-title {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -111,7 +111,7 @@ ol {
   border: none;
 }
 
-.search-form__checkbox-list{
+.search-form__checkbox-list {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -119,14 +119,14 @@ ol {
   gap: 15px;
 }
 
-.search-form__label{
+.search-form__label {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5px;
 }
 
-.search-form__textfield{
+.search-form__textfield {
   background-color: transparent;
   border: none;
   border-top: 1px solid #fff;
@@ -136,13 +136,12 @@ ol {
   font-size: 18px;
   line-height: 27px;
   color: #fff;
-  width: 225px;
   appearance: none;
   width: 225px;
   height: 27px;
 }
 
-.search-form__pseudo-checkbox{
+.search-form__pseudo-checkbox {
   display: inline-block;
   width: 19px;
   height: 19px;
@@ -152,7 +151,7 @@ ol {
   cursor: pointer
 }
 
-.search-form__pseudo-checkbox::after{
+.search-form__pseudo-checkbox::after {
   content: "";
   background-color: #fff;
   width: 15px;
@@ -161,7 +160,7 @@ ol {
   margin: 1px;
 }
 
-.search-form__checkbox:checked + .search-form__pseudo-checkbox::after{
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
 display: block;}
 
 .search-form__label:has(:focus-visible){
@@ -173,34 +172,34 @@ display: block;}
   text-decoration-skip-ink: none;
 }
 
-.search-form__submit-button{
+.search-form__submit-button {
   width: 194px;
   height: 34px;
   cursor: pointer
 }
 
-.search-form__submit-button:hover{
+.search-form__submit-button:hover {
   text-decoration: underline;
 }
 
-.search-form__submit-button:active{
+.search-form__submit-button:active {
   background-color: #545050;
 }
 
-.search-form__submit-button:focus{
+.search-form__submit-button:focus {
   outline: none;
 }
 
-.search-form__submit-button:focus-visible{
+.search-form__submit-button:focus-visible {
   outline: 1px solid #fff;
 }
 
-.content__details{
+.content__details {
   width: 100%;
   height: 100%;
 }
 
-.title{
+.title {
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;;
   font-weight: 700;
@@ -208,11 +207,11 @@ display: block;}
   line-height: 70.5px;
 }
 
-.content__accent{
+.content__accent {
   color: #545050;
 }
 
-.content__list-container{
+.content__list-container {
   position: relative;
   margin-top: 26px;
   width: 399px;
@@ -221,51 +220,47 @@ display: block;}
   overflow-x: hidden
 }
 
-.content__list{
+.content__list {
   display: grid;
   row-gap: 30px;
 }
 
-.content__list-item{
-  width: 399px;
-}
-
-.content__card-link{
+.content__card-link {
   text-decoration: none;
 }
 
-.content__video-card{
+.content__video-card {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: start;
+  align-items: start;
   cursor: pointer
 }
 
-.content__video-card:active{
+.content__video-card:active {
   background-color: #545050;
 }
 
-.content__video-card:hover{
+.content__video-card:hover {
  text-decoration: underline;
  color: #fff;
  text-decoration-skip-ink: none;
 }
 
-.content__video-card:focus{
+.content__video-card:focus {
   outline: none;
 }
 
-.content__video-card:focus-visible{
+.content__video-card:focus-visible {
   outline: 1px solid #fff;
 }
 
-.content__video-card-description-container{
+.content__video-card-description-container {
   flex-grow: 1;
   line-clamp: 2;
 }
 
-.content__video-card-title{
+.content__video-card-title {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -277,7 +272,7 @@ display: block;}
   text-transform: uppercase;
 }
 
-.content__video-card-description{
+.content__video-card-description {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -285,7 +280,7 @@ display: block;}
   color: #fff;
 }
 /*Я не смогла разобраться как подогнать карточку ровно по макету*/
-.content__video-card-thumbnail{
+.content__video-card-thumbnail {
   display: block;
   width: 194px;
   height: 103px;
@@ -304,18 +299,18 @@ display: block;}
   white-space: nowrap;
 }
 
-.button{
+.button {
   background-color: transparent;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 21.6px;
+  line-height: 22px;
   text-align: center;
   color: #fff;
   border: 1px solid #fff;
 }
 
-.more-button{
+.more-button {
   width: 390px;
   height: 34px;
   gap: 10px;
