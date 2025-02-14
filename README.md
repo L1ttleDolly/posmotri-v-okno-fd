@@ -1,1 +1,1 @@
-https://github.com/L1ttleDolly/ono-tebe-nado-fd
+https://github.com/L1ttleDolly/posmotri-v-okno-fd
