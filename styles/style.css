@@ -186,15 +186,15 @@ ol {
   text-decoration: underline;
 }
 
-.search-form__submit-button:active {
+.button:active {
   background-color: #545050;
 }
 
-.search-form__submit-button:focus {
+.button:focus {
   outline: none;
 }
 
-.search-form__submit-button:focus-visible {
+.button:focus-visible {
   outline: 1px solid #fff;
 }
 
@@ -228,7 +228,12 @@ ol {
 }
 
 .content__card-link {
+  display: block;
   text-decoration: none;
+}
+
+.content__card-link_current{
+  background-color: #545050;
 }
 
 .content__video-card {
@@ -313,6 +318,7 @@ ol {
   color: #fff;
   border: 1px solid #fff;
   height: 34px;
+  cursor: pointer;
 }
 
 .more-button {
